@@ -1,0 +1,27 @@
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace FIRSTAPP
+{
+  
+     public struct Employee
+    {
+        public int EmployeeId;
+        public string EmployeeName;
+
+    }
+    class Program
+    {
+    static void Main(string[] args)
+            {
+                Employee employee;
+                employee.EmployeeId = 13;
+                employee.EmployeeName = "jayaseeli";
+                Console.WriteLine(employee.EmployeeId + "\t" + employee.EmployeeName);
+                Console.ReadLine();
+            }
+        }
+    }

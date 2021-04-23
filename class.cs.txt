@@ -1,0 +1,20 @@
+using System.IO;
+using System;
+
+class student
+{
+    public int rollNumber{get;set;}
+     public int Name{get;set;}
+    public int Gender {get;set;}
+   static void Main()
+   {
+       Student Student =new Student();
+       Student.rollNumber =1;
+       Student.Name ="jaya";
+       Student.Gender ="female";
+       Console.WriteLine(Student.rollNumber+"/t"+Student.Name+"\t"+Student.Gender);
+       Console.ReadLine();
+   }
+   
+   
+    }
